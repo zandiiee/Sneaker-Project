@@ -1,0 +1,120 @@
+.hero-images  {
+    display:flex;
+    gap:30px;
+    margin:50px;  
+}
+
+.hero-image img  {
+    max-width: 100%;
+    width:500px;
+    height:450px;
+    margin: 0px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero-main{
+    justify-items: center;
+    margin-top: 70px;
+}
+
+.firstImg img,
+.secondImg img,
+.thirdImg img,
+.fourthImg img{
+    border-radius: 20px;
+    width:100px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border: 4px solid transparent;
+}
+
+.firstImg img:hover,
+.secondImg img:hover,
+.thirdImg img:hover,
+.fourthImg img:hover{
+    border-color: hsl(26, 100%, 55%);
+    opacity: 0.5;
+}
+
+.right-header h3{
+    color: grey;
+}
+
+.right-header h2{
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.right-content p{
+    color: gray;
+    max-width: 700px;
+    white-space: normal;
+}
+ 
+.hero{
+    display: flex;
+    justify-content: center;
+}
+
+.right-side{
+    margin-top: 70px;
+}
+
+.prices{
+    display:flex;
+    gap:30px;
+}
+
+.cross-out{
+    color:gray;
+    text-decoration: line-through;
+}
+
+.minus{
+    margin-right: 25px;
+    margin-bottom: 3px;
+}
+
+.plus{
+    margin-left:25px;
+}
+
+.add-items{
+    background-color:#F5F5F5;
+    width:100px;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.checkout-button button{
+    padding:15px 50px;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.checkout-button img{
+    width:20px;
+    margin-right:20px;
+    filter: brightness(0);
+}
+
+.checkout{
+    display:flex;
+    gap:40px;
+}
+
+.discount button{
+    color:white;
+    background-color: black;
+    width:80px;
+    margin-top: 20px;
+    border:none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: medium;
+}
