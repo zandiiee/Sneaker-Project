@@ -9,7 +9,7 @@ import plus from "../assets/icon-plus.svg"
 import cart from "../assets/icon-cart.svg"
 
 
-function Hero(){
+function Hero(props){
     return(
                 <div className="hero">
             {/* Left Section*/}
@@ -70,7 +70,7 @@ function Hero(){
                 <div className="checkout">
 
                     <div className="add-items">
-                        <img src={minus} alt="Minus" className="minus"/>0<img src={plus} alt="Plus" className="plus"/>
+                      <button onClick={props.decrement}><img src={minus} alt="Minus" className="minus"/></button> <h3>{props.count}</h3><button onClick={props.increment}><img src={plus} alt="Plus" className="plus"/> </button>
                     </div>
 
                     <div className="checkout-button">
